@@ -5,6 +5,8 @@ filetype plugin on
 set number
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
 
 set laststatus=2
 
