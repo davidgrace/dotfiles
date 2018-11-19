@@ -45,6 +45,6 @@ function parse_git_branch() {
 export PS1="${Green}\t${NC} \u [\W] ${Yellow}\`parse_git_branch\`${NC}> "
 
 # Set colors of different file types in 'ls' output
-alias ls="ls --color"
+alias ls="ls -G"
 export LS_COLORS="di=0;34:ln=0;93:or=0;31"
 
