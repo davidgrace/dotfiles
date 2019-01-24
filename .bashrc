@@ -48,3 +48,6 @@ export PS1="${Green}\t${NC} \u [\W] ${Yellow}\`parse_git_branch\`${NC}> "
 alias ls="ls -G"
 export LS_COLORS="di=0;34:ln=0;93:or=0;31"
 
+# Use Neovim rather than Vim
+alias vim="nvim"
+export EDITOR=nvim
